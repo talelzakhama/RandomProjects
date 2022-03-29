@@ -1,4 +1,4 @@
-# This script take the path to a text file and returns the number of occurences of a string inside that file
+# This script takes the path to a text file and returns the number of occurences of a string inside that file
 import re
 
 def FindWord(text,word):
