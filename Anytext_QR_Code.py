@@ -3,7 +3,7 @@ import qrcode
 
 def image_qr(URL):
 	img = qrcode.make(URL)
-	img.save(filename + '.png')
+	img.save('Your_QR'+ '.png')
 
 
 def run():
