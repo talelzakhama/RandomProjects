@@ -1,8 +1,5 @@
 import re
 
-# Read the txt file.
-# infile =r"/Users/talelzakhama/Desktop/Test.log"
-
 def FindWord(text,word):
 	#Read the txt file.
 	with open (text) as f:
@@ -14,10 +11,6 @@ def FindWord(text,word):
 	# Listing all found strings of interest.
 	all_found = re.findall(word,fstr)
 	return len(all_found)
-
-
-
-# print ("Keyword ""{}"" was found {} times\nAdios Amigo".format(word,len(all_found)))
 
 if __name__=="__main__":
 	path = input("Please enter path to text:\n")
