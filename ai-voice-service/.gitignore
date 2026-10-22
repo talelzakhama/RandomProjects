@@ -1,0 +1,27 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+# Dev environments / editors
+.DS_Store
+.idea/
+.vscode/
+# Generated data, recordings, and customer artifacts
+recordings/
+transcripts/
+data/
+logs/
+*.sqlite3
+coverage.xml
+htmlcov/
